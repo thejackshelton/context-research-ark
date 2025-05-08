@@ -9,9 +9,7 @@ import { Field } from "@ark-ui/solid/field";
 export const Input = () => {
 	return (
 		<Field.Root>
-			<Field.Label>Label</Field.Label>
 			<Field.Input />
-			<Field.ErrorText>Error Info</Field.ErrorText>
 			<ComposedHelperText />
 		</Field.Root>
 	);
